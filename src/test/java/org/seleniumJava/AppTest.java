@@ -50,17 +50,12 @@ public class AppTest {
 
                                      //პირველი საშინაო დავალება
 
-        PirveliDavaleba pirveliDavaleba = new PirveliDavaleba();
-        System.out.println("             ამოცანა 1");
-        pirveliDavaleba.calculation();
-        System.out.println("             ამოცანა 2");
-        pirveliDavaleba.countOfChars();
-        System.out.println("             ამოცანა 3");
-        pirveliDavaleba.gamotoveSityva();
-        System.out.println("             ამოცანა 4");
-        pirveliDavaleba.countVowel();
-        System.out.println("             ამოცანა 5");
-        pirveliDavaleba.countOfConsonants();
+PirveliDavaleba sashinaoDavaleba = new PirveliDavaleba();
+sashinaoDavaleba.multipTo3();
+sashinaoDavaleba.luwiaTuKenti();
+sashinaoDavaleba.continue5();
+sashinaoDavaleba.countOfVowel();
+sashinaoDavaleba.countOfVowel1();
     }
 
 }
